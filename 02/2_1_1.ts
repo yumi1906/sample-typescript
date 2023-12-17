@@ -1,3 +1,3 @@
 const greeting = "Hello, ";
-const target = greeting;
-console.log(greeting + target);
+const text = greeting + "world!";
+console.log(text);
