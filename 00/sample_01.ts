@@ -4,7 +4,7 @@ enum Fruits {
     Orange = 'orange',
 }
 
-function getSample(fruits: Fruits): string { 
+function getFruits(fruits: Fruits): string {
     switch (fruits) { 
         case Fruits.Apple:
             return 'りんご';
@@ -17,4 +17,4 @@ function getSample(fruits: Fruits): string {
     }
 }
 
-console.log(getSample(Fruits.Banana));
+console.log(getFruits(Fruits.Banana));
